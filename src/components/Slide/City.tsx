@@ -18,7 +18,7 @@ export function City({href, bgImage, city, description}:CityProps){
         align="center"
         justify="center"
         direction="column"
-        bgImage={`url(/${bgImage}.png)`}
+        bgImage={`url(/continent_banner/${bgImage}.png)`}
         bgRepeat="no-react"
         bgSize="cover"
         textAlign="center"
